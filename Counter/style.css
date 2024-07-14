@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(164, 161, 161);
+    margin: auto;
+    margin-top: 4rem;
+
+}
+
+h1{
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+#updateEle{
+    margin-top: -10px;
+}
+
+#increasebtn{
+    padding: 6px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#increasebtn:hover{
+    background-color: green;
+}
+#resetbtn{
+    padding: 6px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+#resetbtn:hover{
+    background-color: black;
+    color: white;
+}
+#decreasebtn{
+    padding: 6px;
+    font-size: 1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 6px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+#decreasebtn:hover{
+    background-color:red;
+}
